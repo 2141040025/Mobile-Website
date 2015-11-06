@@ -1,0 +1,93 @@
+/*-------------------------------------------------------------------------------
+ * Ver en Github:                                                              
+ * http://2141040025.github.io/Typography
+
+                   											* Escrito por:      
+                                                        	* Fernando Saldaña  
+-------------------------------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900,500,300,200);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+
+/*-----------------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 1px 0px;
+}
+
+h1{
+	color: #505458;
+	font-size: 36px;
+	line-height: 43px;
+	letter-spacing: -0.5px;
+}
+
+h2{
+	color: #505458;
+	font-size: 30px;
+	line-height: 35px;
+    letter-spacing: -0.5px;
+}
+
+h3{
+	color: #282323;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+h4{
+	color: #282323;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size:15px;
+	line-height: 22px;}
+
+/*-----------------------------------------------------------------------------*/
+
+/*Normal*/
+.font-n{
+	font-weight: 400;
+}  
+
+/*Light*/
+.font-l{
+	font-weight: 300;
+}
+
+/*Bold*/ 
+.font-b{
+	font-weight: 600;
+}  
+
+/*Italic*/
+.font-i{
+	font-style: italic;
+}  
+
+/*Uppercase*/
+.font-{
+	text-transform: uppercase;
+} 
+
+/*Subtitles*/
+/*<h1>Title <span class="font-subt">subtitle</span></h1>*/
+.font-subt{
+	font-style: italic; 
+	font-size: 16px; 
+	text-transform: uppercase;
+}
+
+.color-w{
+	color: #f2f2f2
+}

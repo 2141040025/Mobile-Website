@@ -16,7 +16,7 @@
 
 body, 
 html{
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -24,9 +24,12 @@ html{
 /*---------------------------------------------------------------------------------
  * Principal Content
  *-------------------------------------------------------------------------------*/
+
 .sb-site-container{
-	background-color: #E5E9EC;
+	background-color: #ffffff;
 }
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .sb-site-container > .cp-header {
 	background-color: #3E454C;
@@ -54,6 +57,37 @@ html{
 	font-size: 10px;
 	margin-right: 9px;
 }
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.sb-site-container > .cp-content > .background-user{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/background-user.jpg');
+	background-size: 100% 100%;
+}
+
+.sb-site-container > .cp-content > .background-user > img{
+	border: 7px solid #ffffff;
+	border-radius: 50%;
+	position:absolute;
+	top:100%;
+	left:50%;
+
+	-webkit-transform:  translate(-50%, -50%);
+	   -moz-transform:  translate(-50%, -50%);
+	     -o-transform:  translate(-50%, -50%);
+	        transform:  translate(-50%, -50%);	
+}
+
+.sb-site-container > .cp-content > .user-info {
+	margin: auto;
+	width: 310px;
+	text-align: center;
+	margin-top: 55px;
+}
+
 
 /*---------------------------------------------------------------------------------
  * SideBar Left
@@ -94,11 +128,13 @@ html{
 	border-radius: 2.5px;
 	box-shadow: none;
 	margin: 0px 0px 0px 0px;
-	min-width: 80px;
+	min-width: 105px;
 	padding: 5px 0px;
 }
 
 .dropdown-menu > li > a{
+	font-family: 'Open Sans', sans-serif;
+	color: #505458;
 	padding:  2.5px 10px;
 }
 .dropdown-menu > li > a > i{

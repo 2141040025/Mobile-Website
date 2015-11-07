@@ -83,7 +83,6 @@ html{
 
 .sb-site-container > .cp-content > .user-info {
 	margin: auto;
-	width: 310px;
 	text-align: center;
 	margin-top: 55px;
 }
@@ -139,4 +138,48 @@ html{
 }
 .dropdown-menu > li > a > i{
 	margin-right: 5px;
+}
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+	.sb-site-container > .cp-content > .user-info > h1 {
+		font-size: 25px;
+		margin-bottom: 0px;
+	}
+    .sb-site-container > .cp-content > .user-info > h3 {
+    	margin: auto;
+		font-size: 20px;
+		width: 250px;
+	}
 }

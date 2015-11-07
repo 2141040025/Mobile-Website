@@ -168,18 +168,20 @@ html{
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
+	p{
+		font-size: 20px;
+		line-height: 20px;
+	}
 
 	.sb-site-container > .cp-content > .user-info > h1 {
 		font-size: 25px;
 		margin-bottom: 0px;
 	}
     .sb-site-container > .cp-content > .user-info > h3 {
-    	margin: auto;
-		font-size: 20px;
+    	margin: 0px auto 30px auto;
 		width: 250px;
+	}
+	.thumbs{
+		width: 145px;
 	}
 }

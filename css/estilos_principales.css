@@ -16,13 +16,58 @@
 
 body, 
 html{
-	font-size: 16px;
 	font-family: 'Raleway';
 	font-size: 16px;
 	font-weight: 300;
 }
 
-/*-------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------
+ * Principal Content
+ *-------------------------------------------------------------------------------*/
+.sb-site-container{
+	background-color: #E5E9EC;
+}
+
+.sb-site-container > .cp-header {
+	background-color: #3E454C;
+	color: #f2f2f2;
+	padding: 0px 0px 0px 15px;
+	width: 100%;
+	height: 55px;
+}
+
+.sb-site-container > .cp-header > div > .fa-bars {
+	/*Bars*/
+	line-height: 58px !important; 
+	font-size: 20px;
+}
+
+.sb-site-container > .cp-header > .cp-user {
+	/*UserPanel*/
+	padding: 10px 15px 10px 15px;
+	background-color: #2C2F35; 
+	height: 55px;
+	line-height: 33px;
+}
+
+.sb-site-container > .cp-header > .cp-user  > div  > .fa-chevron-down {
+	font-size: 10px;
+	margin-right: 9px;
+}
+
+/*---------------------------------------------------------------------------------
+ * SideBar Left
+ *-------------------------------------------------------------------------------*/
+
+.sb-left > .sb-header{
+	width: 100%;
+	height: 110px;
+	background-color: #2C2F35;
+}
+
+/*---------------------------------------------------------------------------------
+ * Helper Classes
+ *-------------------------------------------------------------------------------*/
 
 .mar-auto{
 	margin: auto;
@@ -34,35 +79,28 @@ html{
 	top:50%;
 	left:50%;
 
-	-webkit-transform:      translate(-50%, -50%);
-	   -moz-transform:      translate(-50%, -50%);
-	     -o-transform:      translate(-50%, -50%);
-	        transform:      translate(-50%, -50%);
+	-webkit-transform:  translate(-50%, -50%);
+	   -moz-transform:  translate(-50%, -50%);
+	     -o-transform:  translate(-50%, -50%);
+	        transform:  translate(-50%, -50%);
 }
-
-/*-------------------------------------------------------------------------------*/
-
-.sb-site-container > .cp-header {
-	background-color: #3E454C;
-	color: #f2f2f2;
-	padding: 0px 25px;
-	width: 100%;
-	height: 55px;
-}
-
-.sb-site-container > .cp-header > i {
-	line-height: 60px !important; 
-	font-size: 24px;
-}
-
-
 
 /*---------------------------------------------------------------------------------
- * SideBar Left
+ * Bootstrap
  *-------------------------------------------------------------------------------*/
 
-.sb-left > .sb-header{
-	width: 100%;
-	height: 110px;
-	background-color: #2C2F35;
+.dropdown-menu {
+	border:none;
+	border-radius: 2.5px;
+	box-shadow: none;
+	margin: 0px 0px 0px 0px;
+	min-width: 80px;
+	padding: 5px 0px;
+}
+
+.dropdown-menu > li > a{
+	padding:  2.5px 10px;
+}
+.dropdown-menu > li > a > i{
+	margin-right: 5px;
 }
